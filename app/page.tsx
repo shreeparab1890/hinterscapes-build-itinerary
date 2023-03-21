@@ -94,7 +94,7 @@ export default function Home() {
         <div className="results-container">
         {
           loading && (
-            <p>{message}</p>
+            <span style={{color: 'black'}}>{message}</span>
           )
         }
         {
